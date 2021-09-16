@@ -1,0 +1,3 @@
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/cmake-build-debug/CMakeFiles/rebuild_cache.dir

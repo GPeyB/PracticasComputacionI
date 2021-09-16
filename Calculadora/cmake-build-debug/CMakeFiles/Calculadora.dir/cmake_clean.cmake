@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Calculadora.dir/main.cpp.obj"
+  "CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
   "Calculadora.exe"
   "Calculadora.exe.manifest"
   "Calculadora.pdb"

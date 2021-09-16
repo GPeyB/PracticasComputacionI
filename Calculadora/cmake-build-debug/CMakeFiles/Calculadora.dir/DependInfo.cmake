@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/main.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/main.cpp.obj"
+  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/Calculadora.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -128,29 +128,29 @@ Calculadora/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/build
 .PHONY : Calculadora/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Calculadora.obj: Calculadora.cpp.obj
+.PHONY : Calculadora.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Calculadora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.obj
+.PHONY : Calculadora.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Calculadora.i: Calculadora.cpp.i
+.PHONY : Calculadora.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.i
-.PHONY : main.cpp.i
+Calculadora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.i
+.PHONY : Calculadora.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Calculadora.s: Calculadora.cpp.s
+.PHONY : Calculadora.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.s
-.PHONY : main.cpp.s
+Calculadora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.s
+.PHONY : Calculadora.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Calculadora
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Calculadora.obj
+	@echo ... Calculadora.i
+	@echo ... Calculadora.s
 .PHONY : help
 
 

@@ -65,27 +65,27 @@ include CMakeFiles/Calculadora.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Calculadora.dir/flags.make
 
-CMakeFiles/Calculadora.dir/main.cpp.obj: CMakeFiles/Calculadora.dir/flags.make
-CMakeFiles/Calculadora.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculadora.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Calculadora.dir\main.cpp.obj -c C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\main.cpp
+CMakeFiles/Calculadora.dir/Calculadora.cpp.obj: CMakeFiles/Calculadora.dir/flags.make
+CMakeFiles/Calculadora.dir/Calculadora.cpp.obj: ../Calculadora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Calculadora.dir\Calculadora.cpp.obj -c C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\Calculadora.cpp
 
-CMakeFiles/Calculadora.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculadora.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\main.cpp > CMakeFiles\Calculadora.dir\main.cpp.i
+CMakeFiles/Calculadora.dir/Calculadora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculadora.dir/Calculadora.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\Calculadora.cpp > CMakeFiles\Calculadora.dir\Calculadora.cpp.i
 
-CMakeFiles/Calculadora.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculadora.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\main.cpp -o CMakeFiles\Calculadora.dir\main.cpp.s
+CMakeFiles/Calculadora.dir/Calculadora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculadora.dir/Calculadora.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Calculadora\Calculadora.cpp -o CMakeFiles\Calculadora.dir\Calculadora.cpp.s
 
 # Object files for target Calculadora
 Calculadora_OBJECTS = \
-"CMakeFiles/Calculadora.dir/main.cpp.obj"
+"CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
 
 # External object files for target Calculadora
 Calculadora_EXTERNAL_OBJECTS =
 
-Calculadora.exe: CMakeFiles/Calculadora.dir/main.cpp.obj
+Calculadora.exe: CMakeFiles/Calculadora.dir/Calculadora.cpp.obj
 Calculadora.exe: CMakeFiles/Calculadora.dir/build.make
 Calculadora.exe: CMakeFiles/Calculadora.dir/linklibs.rsp
 Calculadora.exe: CMakeFiles/Calculadora.dir/objects1.rsp

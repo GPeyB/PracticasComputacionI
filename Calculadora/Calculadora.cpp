@@ -10,7 +10,7 @@ int main() {
  float x;
  float y;
 
- cout << "Basic calculator";
+ cout << "Basic calculator"<<endl;
 
  cout << "Enter first number:";
  cin >> x;

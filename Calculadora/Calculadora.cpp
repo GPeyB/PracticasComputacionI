@@ -10,33 +10,39 @@ int main() {
  float x;
  float y;
 
- cout << "Basic calculator"<<endl;
+ cout << "Este programa hace operaciones basicas entre dos numeros"<<endl;
 
- cout << "Enter first number:";
+ cout << "Primer numero:";
  cin >> x;
- cout << "Choose operator (+,-,*,%,/):";
+ cout << "Operacion:";
  cin >> op;
- cout << "Enter second number:";
+ cout << "Segundo numero:";
  cin >> y;
 
  if( op == '%'){
-     cout << x << "%" << y << "=" << fmod (x,y);
+     cout << "Resultado:" <<endl;
+     cout <<  x  << " % " <<  y  << " = " << fmod (x,y);
  }
  if( op == '+'){
-     cout << x << "+" << y << "=" << (x + y);
+     cout << "Resultado:" <<endl;
+     cout <<  x  << " + " <<  y  << " = " << (x + y);
      }
  if( op == '-'){
-     cout << x << "-" << y << "=" << (x - y);
+     cout << "Resultado:" <<endl;
+     cout <<  x  << " - " <<  y  << " = " << (x - y);
      }
  if( op == '*') {
-     cout << x << "*" << y << "=" << (x * y);
+     cout << "Resultado:" <<endl;
+     cout <<  x  << " * " <<  y  << " = " << (x * y);
      }
  if( op == '/'){
      if (y !=0.0) {
-         cout << x << "/" << y << "=" << (x / y);
+         cout << "Resultado:" <<endl;
+         cout <<  x  << " / " <<  y  << " = " << (x / y);
      }
      else {
-            cout << "Not defined";
+            cout << "Resultado:" <<endl;
+            cout << "No esta definido";
      }
 
      }

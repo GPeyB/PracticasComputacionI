@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\GaussJordan
+CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\GaussJordan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\GaussJordan\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\GaussJordan\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\GaussJordan\cmake-build-debug\CMakeFiles C:\Users\gapeb\Desktop\GaussJordan\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\GaussJordan\cmake-build-debug\CMakeFiles C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\GaussJordan\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\GaussJordan\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\GaussJordan\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ GaussJordan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/build
 .PHONY : GaussJordan/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+GaussJordan.obj: GaussJordan.cpp.obj
+.PHONY : GaussJordan.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+GaussJordan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj
+.PHONY : GaussJordan.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+GaussJordan.i: GaussJordan.cpp.i
+.PHONY : GaussJordan.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.i
-.PHONY : main.cpp.i
+GaussJordan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.i
+.PHONY : GaussJordan.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+GaussJordan.s: GaussJordan.cpp.s
+.PHONY : GaussJordan.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.s
-.PHONY : main.cpp.s
+GaussJordan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.s
+.PHONY : GaussJordan.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GaussJordan
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... GaussJordan.obj
+	@echo ... GaussJordan.i
+	@echo ... GaussJordan.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GaussJordan.dir/main.cpp.obj"
+  "CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj"
   "GaussJordan.exe"
   "GaussJordan.exe.manifest"
   "GaussJordan.pdb"

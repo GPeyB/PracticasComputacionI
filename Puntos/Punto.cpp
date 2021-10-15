@@ -24,7 +24,7 @@ void Punto2D:: Trasladar(float trax, float tray){
 }
 
 void Punto2D:: RotarRespectoAlOrigen(float a){
-    a *= 3.14159/ 180.0;
+    a *= 3.141592/ 180.0;
     float kp;
     kp = x * cos (a) -  y * sin(a);
     y = x * sin(a) + y * cos(a);

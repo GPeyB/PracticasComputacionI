@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Puntos.dir/Punto.cpp.obj"
+  "CMakeFiles/Puntos.dir/Puntos.cpp.obj"
   "Puntos.exe"
   "Puntos.exe.manifest"
   "Puntos.pdb"

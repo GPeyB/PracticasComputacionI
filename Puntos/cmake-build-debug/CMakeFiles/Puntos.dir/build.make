@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\Puntos
+CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\Puntos\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Puntos.dir/depend.make
@@ -67,30 +67,45 @@ include CMakeFiles/Puntos.dir/flags.make
 
 CMakeFiles/Puntos.dir/Punto.cpp.obj: CMakeFiles/Puntos.dir/flags.make
 CMakeFiles/Puntos.dir/Punto.cpp.obj: ../Punto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Puntos.dir/Punto.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Puntos.dir\Punto.cpp.obj -c C:\Users\gapeb\Desktop\Puntos\Punto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Puntos.dir/Punto.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Puntos.dir\Punto.cpp.obj -c C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Punto.cpp
 
 CMakeFiles/Puntos.dir/Punto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Puntos.dir/Punto.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gapeb\Desktop\Puntos\Punto.cpp > CMakeFiles\Puntos.dir\Punto.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Punto.cpp > CMakeFiles\Puntos.dir\Punto.cpp.i
 
 CMakeFiles/Puntos.dir/Punto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Puntos.dir/Punto.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gapeb\Desktop\Puntos\Punto.cpp -o CMakeFiles\Puntos.dir\Punto.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Punto.cpp -o CMakeFiles\Puntos.dir\Punto.cpp.s
+
+CMakeFiles/Puntos.dir/Puntos.cpp.obj: CMakeFiles/Puntos.dir/flags.make
+CMakeFiles/Puntos.dir/Puntos.cpp.obj: ../Puntos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Puntos.dir/Puntos.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Puntos.dir\Puntos.cpp.obj -c C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Puntos.cpp
+
+CMakeFiles/Puntos.dir/Puntos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Puntos.dir/Puntos.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Puntos.cpp > CMakeFiles\Puntos.dir\Puntos.cpp.i
+
+CMakeFiles/Puntos.dir/Puntos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Puntos.dir/Puntos.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\Puntos.cpp -o CMakeFiles\Puntos.dir\Puntos.cpp.s
 
 # Object files for target Puntos
 Puntos_OBJECTS = \
-"CMakeFiles/Puntos.dir/Punto.cpp.obj"
+"CMakeFiles/Puntos.dir/Punto.cpp.obj" \
+"CMakeFiles/Puntos.dir/Puntos.cpp.obj"
 
 # External object files for target Puntos
 Puntos_EXTERNAL_OBJECTS =
 
 Puntos.exe: CMakeFiles/Puntos.dir/Punto.cpp.obj
+Puntos.exe: CMakeFiles/Puntos.dir/Puntos.cpp.obj
 Puntos.exe: CMakeFiles/Puntos.dir/build.make
 Puntos.exe: CMakeFiles/Puntos.dir/linklibs.rsp
 Puntos.exe: CMakeFiles/Puntos.dir/objects1.rsp
 Puntos.exe: CMakeFiles/Puntos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Puntos.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Puntos.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Puntos.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +117,6 @@ CMakeFiles/Puntos.dir/clean:
 .PHONY : CMakeFiles/Puntos.dir/clean
 
 CMakeFiles/Puntos.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gapeb\Desktop\Puntos C:\Users\gapeb\Desktop\Puntos C:\Users\gapeb\Desktop\Puntos\cmake-build-debug C:\Users\gapeb\Desktop\Puntos\cmake-build-debug C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\CMakeFiles\Puntos.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles\Puntos.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Puntos.dir/depend
 

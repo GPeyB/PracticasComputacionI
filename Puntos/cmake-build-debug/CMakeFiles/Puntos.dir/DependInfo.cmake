@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/gapeb/Desktop/Puntos/Punto.cpp" "C:/Users/gapeb/Desktop/Puntos/cmake-build-debug/CMakeFiles/Puntos.dir/Punto.cpp.obj"
+  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Punto.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/cmake-build-debug/CMakeFiles/Puntos.dir/Punto.cpp.obj"
+  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Puntos.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/cmake-build-debug/CMakeFiles/Puntos.dir/Puntos.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

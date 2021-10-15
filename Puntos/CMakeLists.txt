@@ -3,4 +3,4 @@ project(Puntos)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Puntos Punto.cpp Punto.h)
+add_executable(Puntos Punto.cpp Punto.h Puntos.cpp)

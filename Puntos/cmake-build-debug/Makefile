@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\Puntos
+CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\Puntos\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\CMakeFiles C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\Puntos\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ Punto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Punto.cpp.s
 .PHONY : Punto.cpp.s
 
+Puntos.obj: Puntos.cpp.obj
+.PHONY : Puntos.obj
+
+# target to build an object file
+Puntos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.obj
+.PHONY : Puntos.cpp.obj
+
+Puntos.i: Puntos.cpp.i
+.PHONY : Puntos.i
+
+# target to preprocess a source file
+Puntos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.i
+.PHONY : Puntos.cpp.i
+
+Puntos.s: Puntos.cpp.s
+.PHONY : Puntos.s
+
+# target to generate assembly for a file
+Puntos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.s
+.PHONY : Puntos.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... Punto.obj
 	@echo ... Punto.i
 	@echo ... Punto.s
+	@echo ... Puntos.obj
+	@echo ... Puntos.i
+	@echo ... Puntos.s
 .PHONY : help
 
 

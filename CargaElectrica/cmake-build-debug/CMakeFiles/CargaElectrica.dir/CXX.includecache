@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/CargaElectrica.cpp
+iostream
+-
+array
+-
+string
+-
+Grupo.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.h
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.h
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Punto.cpp
+iostream
+-
+array
+-
+Punto.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Punto.h
+math.h
+-
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Punto.h
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Puntos.cpp
+iostream
+-
+array
+-
+Punto.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/Puntos/Punto.h
+

@@ -9,7 +9,7 @@ using namespace std;
 class Grupo{
 public:
 // Establecemos constructor
-    Grupo(string nombreGrupo,float pKGrupo,int cargaGrupo);
+    Grupo(string nomGr,float pKGr,int cargaGr);
 // Valores base
     Grupo() {
          nombreGrupo = "";

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/gapeb/Desktop/CargaElectrica/CargaElectrica.cpp
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/CargaElectrica.cpp
 iostream
 -
 array
@@ -14,9 +14,13 @@ array
 string
 -
 Grupo.h
-C:/Users/gapeb/Desktop/CargaElectrica/Grupo.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.h
 
-C:/Users/gapeb/Desktop/CargaElectrica/Grupo.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.cpp
+Grupo.h
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.h
+
+C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.h
 string
 -
 

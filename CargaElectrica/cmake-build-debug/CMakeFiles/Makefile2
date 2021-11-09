@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\CargaElectrica
+CMAKE_SOURCE_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\CargaElectrica
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\CargaElectrica\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\CargaElectrica\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/CargaElectrica.dir/clean
 CMakeFiles/CargaElectrica.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CargaElectrica.dir\build.make CMakeFiles/CargaElectrica.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CargaElectrica.dir\build.make CMakeFiles/CargaElectrica.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\gapeb\Desktop\CargaElectrica\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CargaElectrica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\CargaElectrica\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CargaElectrica"
 .PHONY : CMakeFiles/CargaElectrica.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CargaElectrica.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\CargaElectrica\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\CargaElectrica\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CargaElectrica.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\CargaElectrica\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gapeb\Desktop\COMPU\PracticasComputacionI\CargaElectrica\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CargaElectrica.dir/rule
 
 # Convenience name for target.

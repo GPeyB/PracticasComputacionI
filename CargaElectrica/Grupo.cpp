@@ -4,11 +4,11 @@
 #include "Grupo.h"
 
 // Definición del constructor
-Grupo::Grupo(string nombreGrupo, float pKGrupo, int cargaGrupo) {
+Grupo::Grupo(string nomGr,float pKGr,int cargaGr) {
 
-    nombreGrupo = nombreGrupo;
-    pKGrupo = pKGrupo;
-    cargaGrupo = cargaGrupo;
+    nombreGrupo = nomGr;
+    pKGrupo = pKGr;
+    cargaGrupo = cargaGr;
 }
 
 // Definición de los getters

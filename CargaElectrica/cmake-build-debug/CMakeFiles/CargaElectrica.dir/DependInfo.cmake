@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/gapeb/Desktop/CargaElectrica/CargaElectrica.cpp" "C:/Users/gapeb/Desktop/CargaElectrica/cmake-build-debug/CMakeFiles/CargaElectrica.dir/CargaElectrica.cpp.obj"
-  "C:/Users/gapeb/Desktop/CargaElectrica/Grupo.cpp" "C:/Users/gapeb/Desktop/CargaElectrica/cmake-build-debug/CMakeFiles/CargaElectrica.dir/Grupo.cpp.obj"
+  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/CargaElectrica.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/cmake-build-debug/CMakeFiles/CargaElectrica.dir/CargaElectrica.cpp.obj"
+  "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/Grupo.cpp" "C:/Users/gapeb/Desktop/COMPU/PracticasComputacionI/CargaElectrica/cmake-build-debug/CMakeFiles/CargaElectrica.dir/Grupo.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
